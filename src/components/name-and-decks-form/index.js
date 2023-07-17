@@ -44,11 +44,11 @@ function NameAndDecksForm(props) {
           <div className="fs-4 mb-2">
             {IS_JOIN ? (
               <span>
-                You've been invited to a Triad match. Use the form below to
+                You've been invited to a triad match. Use the form below to
                 join.
               </span>
             ) : (
-              <span>Use the form below to start a Triad match.</span>
+              <span>Use the form below to start a triad match.</span>
             )}
           </div>
         </div>
