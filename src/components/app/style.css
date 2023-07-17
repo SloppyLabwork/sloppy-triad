@@ -1,0 +1,189 @@
+* {
+  transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+html, body {
+  background-color: #fafafa;
+  color: #444;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding-top: 60px;
+}
+
+.player-name {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.deck {
+  margin-bottom: 10px;
+}
+
+.deck.card {
+  border-radius: 2px;
+  border: 3px solid #ccc;
+  text-align: center;
+}
+
+.deck-status {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.deck.card.ban {
+  opacity: 0.6;
+  border-color:	#e6b8af;
+  background-color: #fefefe;
+}
+
+.deck.card.ban .deck-status {
+  background-color: #f4cccc;
+}
+
+.deck.card.safe {
+  border-color:	#b6d7a8;
+}
+
+.deck.card.safe .deck-status {
+  background-color: #d9ead3;
+}
+
+.deck.card.selection-to-confirm,
+.deck.card.selectable:hover {
+  cursor: pointer;
+  background-color: #fff3cd;
+  border-color: #dfbb50;
+}
+
+.deck.card.selection-to-confirm .deck-houses,
+.deck.card.selectable:hover .deck-houses {
+  background-color: #ffe69c;
+}
+
+.deck.card.selection-to-confirm .deck-status,
+.deck.card.selectable:hover .deck-status {
+  background-color: #dfbb50;
+}
+
+.deck.card.selection-to-confirm {
+  border-style: dotted;
+}
+
+.deck.card.selection-to-confirm,
+.deck.card.selectable {
+  box-shadow: 0 0 6px  #dfbb50;
+  border-color: #dfbb50;
+}
+
+ul.decks-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.my-decks-list .deck > .row {
+  flex-direction: row-reverse;
+}
+
+.deck-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.deck-details .card-title {
+  font-size: larger;
+}
+
+.deck-houses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #eee;
+}
+
+.deck-actions {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.deck-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul.deck-links li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.house-icon {
+  width: 2.5rem;
+}
+
+.deck-status {
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  background-color: #ddd;
+}
+
+.deck-select-button {
+  border: none;
+  margin: 5px;
+  flex: 1;
+}
+
+.deck-status--label,
+.deck-state--game-selection,
+.deck-select-button--label {
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.deck-status > :not(:first-child)::before {
+  content: " - "
+}
+
+.deck-input-textarea {
+  height: 150px;
+}
+
+.btn + .btn {
+  margin-left: 3px;
+}
+
+.alert-header {
+  font-weight: bold;
+  display: block;
+}
+
+.footer-wrapper {
+  align-items: flex-end;
+}
+
+ul.footer {
+  margin-top: 20px;
+  padding: 20px 0 0;
+  border-top: 1px solid #eee;
+  list-style-type: none;
+}
+
+.game-status {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 5em;
+}
