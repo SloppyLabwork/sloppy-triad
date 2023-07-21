@@ -1,6 +1,6 @@
 {
   "name": "sloppy-triad",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "private": true,
   "homepage": "https://triad.sloppylabwork.com",
   "dependencies": {

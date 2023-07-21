@@ -13,13 +13,23 @@ function Footer() {
       <div className="footer-wrapper flex-grow-1 d-flex">
         <ul className="footer col d-flex flex-column flex-md-row justify-content-between">
           <li>
+            Made with ❤️ by&nbsp;
             <a
               href="https://sloppylabwork.com/"
               className="link-info"
               target="_blank"
               rel="noreferrer"
             >
-              Made with ❤️ by Sloppy Labwork
+              Sloppy Labwork
+            </a>
+            &nbsp; &times; &nbsp;
+            <a
+              href="https://www.thefinalswindle.com/p/home.html"
+              className="link-info"
+              target="_blank"
+              rel="noreferrer"
+            >
+              The Final Swindle
             </a>
           </li>
         </ul>
