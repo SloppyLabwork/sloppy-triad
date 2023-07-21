@@ -14,7 +14,7 @@ const houesIdToImage = (houseId) =>
   ({
     brobnar: brobnarLogo,
     dis: disLogo,
-    ewkidon: ewkidonLogo,
+    ekwidon: ewkidonLogo,
     logos: logosLogo,
     mars: marsLogo,
     sanctum: sanctumLogo,
