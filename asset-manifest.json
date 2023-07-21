@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f96ada2.css",
-    "main.js": "/static/js/main.193532f8.js",
+    "main.js": "/static/js/main.85ee03aa.js",
     "static/media/saurian.png": "/static/media/saurian.f9bf41ab44a3007622e5.png",
     "static/media/brobnar.png": "/static/media/brobnar.6102a18bd7b2be4b01f2.png",
     "static/media/untamed.png": "/static/media/untamed.abaf4774d12f318875cf.png",
@@ -15,10 +15,10 @@
     "static/media/staralliance.png": "/static/media/staralliance.aadbb21e50f3efa6797c.png",
     "index.html": "/index.html",
     "main.1f96ada2.css.map": "/static/css/main.1f96ada2.css.map",
-    "main.193532f8.js.map": "/static/js/main.193532f8.js.map"
+    "main.85ee03aa.js.map": "/static/js/main.85ee03aa.js.map"
   },
   "entrypoints": [
     "static/css/main.1f96ada2.css",
-    "static/js/main.193532f8.js"
+    "static/js/main.85ee03aa.js"
   ]
 }
