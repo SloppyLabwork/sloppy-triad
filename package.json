@@ -2,7 +2,7 @@
   "name": "sloppy-triad",
   "version": "0.13.1",
   "private": true,
-  "homepage": "https://triad.sloppylabwork.com",
+  "homepage": "https://sloppylabwork.github.io/sloppy-triad",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
