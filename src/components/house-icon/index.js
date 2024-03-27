@@ -9,6 +9,7 @@ import shadowsLogo from '../../images/houses-flat/shadows.png'
 import starallianceLogo from '../../images/houses-flat/staralliance.png'
 import unfathomableLogo from '../../images/houses-flat/unfathomable.png'
 import untamedLogo from '../../images/houses-flat/untamed.png'
+import geistoidLogo from '../../images/houses-flat/geistoid.png'
 
 const houesIdToImage = (houseId) =>
   ({
@@ -23,6 +24,7 @@ const houesIdToImage = (houseId) =>
     staralliance: starallianceLogo,
     unfathomable: unfathomableLogo,
     untamed: untamedLogo,
+    geistoid: geistoidLogo,
   }[houseId])
 
 function HouesIcon(props) {
