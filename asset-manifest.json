@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/sloppy-triad/static/css/main.1f96ada2.css",
-    "main.js": "/sloppy-triad/static/js/main.a1482a37.js",
+    "main.js": "/sloppy-triad/static/js/main.123f2c4e.js",
     "static/media/saurian.png": "/sloppy-triad/static/media/saurian.f9bf41ab44a3007622e5.png",
     "static/media/brobnar.png": "/sloppy-triad/static/media/brobnar.6102a18bd7b2be4b01f2.png",
     "static/media/untamed.png": "/sloppy-triad/static/media/untamed.abaf4774d12f318875cf.png",
+    "static/media/geistoid.png": "/sloppy-triad/static/media/geistoid.aca7b61f4a325ca915f1.png",
     "static/media/sanctum.png": "/sloppy-triad/static/media/sanctum.dff28b95ab1efea1725e.png",
     "static/media/unfathomable.png": "/sloppy-triad/static/media/unfathomable.da2db688ed474882d07a.png",
     "static/media/dis.png": "/sloppy-triad/static/media/dis.ffb524d8cf33811307bf.png",
@@ -15,10 +16,10 @@
     "static/media/staralliance.png": "/sloppy-triad/static/media/staralliance.aadbb21e50f3efa6797c.png",
     "index.html": "/sloppy-triad/index.html",
     "main.1f96ada2.css.map": "/sloppy-triad/static/css/main.1f96ada2.css.map",
-    "main.a1482a37.js.map": "/sloppy-triad/static/js/main.a1482a37.js.map"
+    "main.123f2c4e.js.map": "/sloppy-triad/static/js/main.123f2c4e.js.map"
   },
   "entrypoints": [
     "static/css/main.1f96ada2.css",
-    "static/js/main.a1482a37.js"
+    "static/js/main.123f2c4e.js"
   ]
 }
