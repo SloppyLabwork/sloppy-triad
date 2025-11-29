@@ -8,8 +8,8 @@ import { getPlayerDecks } from '../../services/game'
 import * as gameStates from '../../services/sample-states'
 import './style.css'
 
-const INITIAL_GAME_STATE = process.env.REACT_APP_GAME_STATE
-  ? gameStates[process.env.REACT_APP_GAME_STATE]
+const INITIAL_GAME_STATE = import.meta.env.VITE_GAME_STATE
+  ? gameStates[import.meta.env.VITE_GAME_STATE]
   : gameStates.EMPTY
 
 const submitNameAndDecks = (playerName, playerDecks) => {

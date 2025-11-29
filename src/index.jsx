@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './components/app'
 
-if (process.env.REACT_APP_WEBSOCKET_URL) {
-  const socket = new WebSocket(process.env.REACT_APP_WEBSOCKET_URL)
+if (import.meta.env.VITE_WEBSOCKET_URL) {
+  const socket = new WebSocket(import.meta.env.VITE_WEBSOCKET_URL)
   socket.addEventListener('open', () => {
     const root = ReactDOM.createRoot(document.getElementById('root'))
     root.render(

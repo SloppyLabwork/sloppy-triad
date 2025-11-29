@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f96ada2.css",
+    "main.js": "/static/js/main.193532f8.js",
+    "static/media/saurian.png": "/static/media/saurian.f9bf41ab44a3007622e5.png",
+    "static/media/brobnar.png": "/static/media/brobnar.6102a18bd7b2be4b01f2.png",
+    "static/media/untamed.png": "/static/media/untamed.abaf4774d12f318875cf.png",
+    "static/media/sanctum.png": "/static/media/sanctum.dff28b95ab1efea1725e.png",
+    "static/media/unfathomable.png": "/static/media/unfathomable.da2db688ed474882d07a.png",
+    "static/media/dis.png": "/static/media/dis.ffb524d8cf33811307bf.png",
+    "static/media/shadows.png": "/static/media/shadows.fcfa09789b021c4b081d.png",
+    "static/media/mars.png": "/static/media/mars.e0c04a2cf10d9811185e.png",
+    "static/media/logos.png": "/static/media/logos.d8459f140312fedfed7c.png",
+    "static/media/ekwidon.png": "/static/media/ekwidon.7a133ace7e960af57d6c.png",
+    "static/media/staralliance.png": "/static/media/staralliance.aadbb21e50f3efa6797c.png",
+    "index.html": "/index.html",
+    "main.1f96ada2.css.map": "/static/css/main.1f96ada2.css.map",
+    "main.193532f8.js.map": "/static/js/main.193532f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f96ada2.css",
+    "static/js/main.193532f8.js"
+  ]
+}

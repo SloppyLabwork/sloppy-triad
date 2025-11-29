@@ -1,10 +1,12 @@
+import packageJson from '../../../package.json'
+
 const getNewGameLink = () => window.location.href.replace(/\?.*/, '')
 
 function Footer() {
   return (
     <>
       <div>
-        <span className="text-black-50">v{process.env.REACT_APP_VERSION}</span>{' '}
+        <span className="text-black-50">v{packageJson.version}</span>{' '}
         -{' '}
         <a href={getNewGameLink()} className="link-primary">
           Start new game
