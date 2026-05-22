@@ -190,7 +190,7 @@ ul.deck-links li:not(:last-child) {
 }
 
 .house-icon {
-  width: 2.5rem;
+  max-width: 2.5rem;
   height: 2.5rem;
   transition: transform var(--transition-speed) var(--transition-ease);
 }
