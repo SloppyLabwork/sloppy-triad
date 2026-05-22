@@ -12,6 +12,7 @@ import untamedLogo from '../../images/houses-flat/untamed.png'
 import geistoidLogo from '../../images/houses-flat/geistoid.png'
 import skybornLogo from '../../images/houses-flat/skyborn.png'
 import redemptionLogo from '../../images/houses-flat/redemption.png'
+import ouborosLogo from '../../images/houses-flat/ouboros.png'
 
 const houesIdToImage = (houseId) =>
   ({
@@ -29,7 +30,8 @@ const houesIdToImage = (houseId) =>
     geistoid: geistoidLogo,
     skyborn: skybornLogo,
     redemption: redemptionLogo,
-  }[houseId])
+    ouboros: ouborosLogo,
+  })[houseId]
 
 function HouesIcon(props) {
   const { houseId } = props
